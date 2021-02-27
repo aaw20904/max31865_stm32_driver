@@ -11,25 +11,7 @@ extern SPI_HandleTypeDef hspi1;
 extern uint8_t busy_flag;
 	/*a constructor*/
 	HAL_plug_MAX31865::HAL_plug_MAX31865() {
-		/*configuration READ FROM*/
-		arrayOfData[0x00] = 0x00;
-		/*RTD MSB*/
-		arrayOfData[0x01] = 0x00;
-		/*RTD LSB*/
-		arrayOfData[0x02] = 0x00;
-		/*High Fault Threshold MSB*/
-		arrayOfData[0x03] = 0xff;
-		/*High Fault Threshold LSB*/
-		arrayOfData[0x04] = 0xff;
-		/*Low Fault Threshold MSB*/
-		arrayOfData[0x05] = 0x00;
-		/*Low Fault Threshold LSB*/
-		arrayOfData[0x06] = 0x00;
-		/* Fault status*/
-		arrayOfData[0x07] = (1 << 7);
-		/* configuration - write into**************/
-
-
+	
 	}
 
 
