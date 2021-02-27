@@ -15,7 +15,9 @@ struct initForMAX31865 {
 	uint8_t wireSchematic;
 	/* AC filter 50/60Hz: 0-60, 1-50*/
 	uint8_t filter;
+	/*resistance of a Pt100 sensor at 0 deg. Celsius*/
 	float zeroRTD;
+	/*resistance of etalon resistor*/
 	float etalonR;
 };
 
