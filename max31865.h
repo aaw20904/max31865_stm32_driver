@@ -47,8 +47,7 @@ public:
 	/*a constructor*/
 	HAL_plug_MAX31865();
 protected:
-	/*simulation registers of IC*/
-	uint8_t arrayOfData[256];
+	
         static void delayMaker(uint32_t delay); 
         
 
