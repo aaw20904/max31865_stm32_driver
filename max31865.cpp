@@ -1,5 +1,5 @@
-﻿// ConsoleApplication1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
+/*device driver for MAX31865*/
+/*Author - Andrii Androsowych*/ 
 
 #include <iostream>
 #include <stdio.h>
